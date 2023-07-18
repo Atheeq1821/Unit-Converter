@@ -3,9 +3,12 @@
     text-align: center;
     padding: 0;
     font-family: 'Inter', sans-serif;
+ 
 }
 html{
     background-color: #F4F4F4;
+    background-size: cover;
+    min-width: 675px;
    
 }
 .container{
@@ -14,7 +17,7 @@ html{
 }
 h1{
     font-weight:800px;
-    font-size: 3.5em;
+    font-size: 300%;
     color:#ffffff;
 }
 .wrapper{
@@ -23,21 +26,22 @@ h1{
 }
 
 #result{
+    
     color:#ffffff;
     background-color: #6943FF;
     border: 2px solid #ffffff9c;
     border-radius: 5px;
-    width:16vw;
-    height: 17vh;
+    width:200px;
+    height: 100%;
     font-weight: 900;
     margin: .5em 0px .45em 0px;
-    font-size: 7em;
+    font-size: 75px;
     outline: none;
     
     
 }
 #btn{
-    width: 16vw;
+    width: 117px;
     padding:.5em .5em;
     border: 0;
     border-radius: 5px;
